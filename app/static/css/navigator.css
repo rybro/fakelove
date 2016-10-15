@@ -1,0 +1,18 @@
+#navigator a:link, 
+#navigator a:visited, 
+#navigator a:hover { 
+    color: white;
+    text-decoration: none; 
+} 
+#navigator
+{
+    font-family: 'Tahoma';
+    font-size: 10px;
+    position: fixed;
+    top: 2px;
+    left: 2px;
+    color: white;
+    padding-bottom: 1px;
+    background-color: rgba(88,88,88,0.3);
+    z-index: 10;
+}

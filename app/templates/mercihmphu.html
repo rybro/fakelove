@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>s'il vous plaît me tuer</title>
+		<link rel='shortcut icon' href='static/favicon.ico' />
+        <script src="static/js/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function () {
+				$(document).click(function(){window.location.href="http://fakelove.us/"});	
+				var audio = document.getElementsByTagName("audio")[0];
+				$("#merci").mouseover(function() { $("#seeyouinhell").animate({left: '+=' + ($("#bg").width() - ($("#bg").width() / 3.8)), opacity: '1.0'}, 650); audio.play(); }).mouseout(function() { $("#seeyouinhell").animate({left: '-=' + ($("#bg").width() - ($("#bg").width() / 3.8)), opacity: '0.0'}, 650); });
+			});
+		</script>
+
+		<style type="text/css">
+			@font-face{font-family:'Grand Hotel';font-style:normal;font-weight:400;src:local('Grand Hotel'),local('GrandHotel-Regular'),url(http://themes.googleusercontent.com/static/fonts/grandhotel/v1/NrGQkrs9rbHm5EYx0Eil0obN6UDyHWBl620a-IRfuBk.woff) format('woff');}
+			body
+			{
+				color: white;
+				background-color: black;
+				font-family: 'Grand Hotel', cursive;
+				font-size: 96px;
+				text-align: center;
+				overflow: hidden;
+			}
+			#bg {
+				height: 100%;
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				z-index:3;
+			}
+			#merci
+			{
+				position: absolute;
+				bottom: 150px;
+				right: -125px;
+				z-index: 2;
+				-webkit-transform: rotate(-90deg);
+				-moz-transform: rotate(-90deg);
+				filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+			}
+			.merciblurphu
+			{
+				color: hsla(0,0%,0%,0);
+				text-shadow: #fff 0 0 60px;
+
+				-webkit-transition: text-shadow 2s cubic-bezier(0, 1, 0, 1);
+				-moz-transition: text-shadow 2s cubic-bezier(0, 1, 0, 1);
+				-ms-transition: text-shadow 2s cubic-bezier(0, 1, 0, 1);
+				-o-transition: text-shadow 2s cubic-bezier(0, 1, 0, 1);
+				transition: text-shadow 2s cubic-bezier(0, 1, 0, 1);
+			}
+			@-moz-document url-prefix() { .merciblurphu { text-shadow: #fff 0 0 20px; } }
+			#merci:hover .merciblurphu
+			{
+				text-shadow: #fff 0 0 1px;
+
+				-webkit-transition: text-shadow 1s cubic-bezier(0, .75, 0, 1);
+				-moz-transition: text-shadow 1s cubic-bezier(0, .75, 0, 1);
+				-ms-transition: text-shadow 1s cubic-bezier(0, .75, 0, 1);
+				-o-transition: text-shadow 1s cubic-bezier(0, .75, 0, 1);
+				transition: text-shadow 1s cubic-bezier(0, .75, 0, 1);
+			}
+			#seeyouinhell
+			{
+				opacity: 0.0;
+				height: 100%;
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				z-index: 1;
+			}
+			a, #links
+            {
+                position: absolute;
+                top: 2px;
+                right: 2px;
+                color: grey;
+                font-size: 10px;
+                z-index: 0;
+            }
+		</style>
+    </head>
+	<body>
+		<audio><source src='static/sound/laugh.ogg'></source></audio>
+		<div id='merci'><span class='merciblurphu'>merci hmphu.</span></div>
+		<img id='bg' src='static/img/sophie.gif' alt='my waifu' />
+		<img id='seeyouinhell' src='static/img/see you in hell.png' alt='2spooky' />
+		<div id='links'><a href="/mercihmphu">#</a></div>
+				 <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-47149606-1', 'fakelove.us');
+  ga('send', 'pageview');
+
+</script>
+	</body>
+</html>

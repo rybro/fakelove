@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
+        "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">	
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<body background="http://fakelove.us/static/img/katza.png">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title></title>
+	<meta name="description" content="McGarity" />
+	
+	
+	<script type="text/javascript">		
+		function generator(){
+			
+			var wordlist1 = ["Alpha","Big","Huge","Dude","Bro","Lord","Drunk","Dick",
+							"Coochy","Pretty","Based","Swag","Bong","Jeans","Pussy","Dank","Frat", "Lil ", "Taint", "Fame", "Stunna", "Handsome", "Pimp", "Soulja", "Fresh", "Money", "Cash", "OJ ", "Prison", "Masta", "Big Bob", "Baller", "Ol Dirty", "Kid", "Eazy", "Stud", "College", "Party", "Legit", "yETI", "Real Ass ", "Troll", "Beer", "Smooth", "Dope", "Rawdenim", "Blunt", "Flava", "Coach", "Hustle", "Ass", "Welfare", "Nasty", "Cock", "$200 ", "Mod", "Banned", "Tip", "Clit", "Flirt", "Amazin", "Epic", "Wetdick", "Biggy", "Gym", "Clean", "Cargoshorts", "Literal", "'More Strong' ", "Hover", "Clique", "Sexy", "Missionary", "Doggystyle", "Meta", "Sweet", "Blackdick", "Weed", "Bernie", "Power", "'Sweet Man' ", "Le ", "MC ", "Deadlift", "Smirnoff", "Rawdog", "DJ ", "Eazy", "Twink", "Daddy", ];
+			
+			var wordlist2 = ["nasty","ranchdressing","god","jeans","male","dick","lingus","shit",
+							"lord","lord","eezy","swag","pimp","bro","sweat","squats","dude", "masta", "taint", "anus", "-kun", "thug", "fresh", "money", "cash", "kush", "masta", " G", " D", "stache", "balla", "greek", "daddy", "stain", "dawg", "beatz", "wallet", "squat", "ye West", "gent", "grind", "boy", "gimmick", " 2 Dads", "bridge", "playa", "nigga", "stank",  "baby", "mack", "style", "party", "brow", "banned", "-P", " 'Make Him Cum'", "bate", " Sta", " 'King of the Fratcastle'", "deadlift", "balls", "dougie", " Getpussy", " 'ujelly' ", " 'umad' ", "stunna", " 'Squat Big' ", "collarpop", "ballin", "hand", "beard", "drank", "brotha", "boy, Apprentice", "stroke", " 'Fuck GDIs'", "frat", "king", "shirt", " 'Beat Tha Pussy Up'", "troll", "troller", "train", "job", "licious", "muscles", "virgin", "phile", " 'McNuggets'", "-san",];
+
+			var wordlist3 = ["McGarity"]
+ 
+			var randomNumber1 = parseInt(Math.random() * wordlist1.length);
+			var randomNumber2 = parseInt(Math.random() * wordlist2.length);
+			var randomNumber3 = parseInt(Math.random() * wordlist3.length);
+			var name = wordlist1[randomNumber1] + wordlist2[randomNumber2] + " " + wordlist3[randomNumber3];			
+			
+
+			if(document.getElementById("result")){
+				document.getElementById("placeholder").removeChild(document.getElementById("result"));
+			}
+
+			var element = document.createElement("div");
+			element.setAttribute("id", "result");
+			element.appendChild(document.createTextNode(name));
+			document.getElementById("placeholder").appendChild(element);
+		}		
+	</script>
+	
+	<style type="text/css">
+		body{font-family: arial, serif;}
+		#wrapper{border-left:1px solid #;border-right:1px solid #;margin:0 auto;padding: 0 20px;width: 700px}
+		#generator{background:#DDE3EB;border:1px solid #cccccc;margin:30px 0;font-size:28px;font-weight:bold;padding:50px 0 20px;text-align:center;-moz-border-radius: 5px;-webkit-border-radius: 5px;}
+		#generator input{font-size:16px;font-weight:normal;margin-top: 30px}
+		#footer{font-size: 10px; color: #999; margin: 30px 0 0 0;}
+		#footer a{color:#999}
+	</style>
+	
+	
+</head>
+<body onload="generator()">
+	<div id="wrapper">
+		
+		<div id="generator" >
+			<div id="placeholder"></div>
+			<input type="button" value="mcgarity me" onclick="generator()" />		
+		</div>
+		
+		<div id="footer">
+		<p></a>.
+		</p>
+		</div>
+	</div>
+	
+</body>
+</html>

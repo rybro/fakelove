@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>contact ill people</title>
+		<link rel="shortcut icon" href="static/img/fa.png" />
+		<style type="text/css">
+	    	html, body {
+	    		height: 100%;
+	    		margin: 0;
+	    	}
+			#bg
+			{
+				width: 100%;
+				height: 100%;
+				min-height: 100%;
+				background-image: url('static/img/tartan/happy time blues.png');
+				z-index: 1;
+			}
+			#links
+            {
+                position: absolute;
+                top: 2px;
+                left: 2px;
+                color: grey;
+                font-size: 10px;
+            }
+		</style>
+        <script src="static/js/jquery-1.9.1.min.js"></script>
+        <script src="static/js/jquery-scroll.js"></script>
+        <script src="static/js/jquery-align.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$(document).click(function(){window.location.href="http://fakelove.us/"});
+				$('#bg').bgscroll({scrollSpeed:10, direction:'d', heading: 'r'});
+				$('#about').vAlign().hAlign();
+			});
+		</script>
+	</head>
+	<body>
+		<audio autoplay loop><source src='static/sound/birds.ogg'></source></audio>
+		<div id="about"><img width='800px' height='450px' style="border-style:solid;border-width:1px;" src="static/img/fakelove.jpg">
+			<br /><center><span style="color: grey; font-size: 22px; text-decoration:none;"><a href="https://twitter.com/ninjers">alex</a><br /><a href="https://twitter.com/unsre">ryan</a></span></center></div>
+		</div>
+		<div id="bg"></div>
+		<div id='links'><a href="/about">#</a></div>
+	</body>
+</html>

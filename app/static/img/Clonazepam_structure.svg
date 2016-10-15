@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="399px" height="387px" viewBox="-3.584 -2.853 133 129" enable-background="new">
+<g style="fill: none; stroke: #000000;">
+    <polygon points="84.867,81.089 99.597,94.362 95.47,113.782 76.583,119.905 61.854,106.632 65.981,87.212 "/>
+    <polyline points="73.484,29.503 56.294,19.568 39.104,29.503 39.104,49.327 56.294,59.254 73.484,49.327 "/>
+    <polyline points="103.248,58.409 88.994,61.671 73.484,49.327 73.484,29.503 83.913,21.182 "/>
+    <polyline points="94.027,18.298 108.286,21.549 116.892,39.4 111.265,51.103 "/>
+
+    <line x1="88.994" y1="61.671" x2="84.867" y2="81.089"/>
+    <line x1="65.704" y1="106.062" x2="76.749" y2="116.019"/>
+    <line x1="42.105" y1="31.979" x2="42.105" y2="46.851"/>
+    <line x1="69.837" y1="47.969" x2="56.939" y2="55.42"/>
+    <line x1="69.267" y1="89.306" x2="83.434" y2="84.714"/>
+    <line x1="21.913" y1="64.637" x2="21.913" y2="72.798"/>
+    <line x1="39.104" y1="49.327" x2="31.328" y2="53.814"/>
+    <line x1="103.248" y1="55.332" x2="90.735" y2="58.196"/>
+    <line x1="96.145" y1="96.164" x2="93.046" y2="110.728"/>
+    <line x1="56.939" y1="23.41" x2="69.837" y2="30.861"/>
+    <line x1="106.656" y1="21.177" x2="115.816" y2="9.685"/>
+    <line x1="109.009" y1="23.049" x2="118.045" y2="11.711"/>
+    <line x1="16.54" y1="57.883" x2="9.12" y2="53.599"/>
+    <line x1="16.59" y1="54.441" x2="10.377" y2="50.854"/>
+    <line x1="99.597" y1="94.362" x2="113.092" y2="89.976"/>
+</g>
+
+<g style="font-family: 'DejaVu Sans'; font-size: 12px; fill: #000000;">
+    <text text-anchor="middle" transform="translate(88.972 21.495)">
+        <tspan>N</tspan><tspan x="0" y="-10">H</tspan>
+    </text>
+    <text text-anchor="middle" x="120.656" y="10.374">O</text>
+    <text text-anchor="middle" x="108.308" y="61.601">N</text>
+    <text text-anchor="start" x="113.976" y="92.575">Cl</text>
+    <text text-anchor="start" x="17.113" y="63.597">
+        <tspan>N</tspan><tspan dx="-0.5" dy="-6" font-size="6.5" font-weight="bold">+</tspan>
+    </text>
+    <text text-anchor="start" x="17.113" y="83.45">
+        <tspan>O</tspan><tspan dx="-0.5" dy="-6" font-size="6.5" font-weight="bold">−</tspan>
+    </text>
+    <text text-anchor="middle" x="4.723" y="53.673">O</text>
+</g>
+</svg>

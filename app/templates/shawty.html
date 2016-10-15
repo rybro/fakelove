@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>i'm cashin' out</title>
+		<link rel="shortcut icon" href="static/img/fa.png" />
+		<style type="text/css">
+	    	html, body {
+	    		height: 100%;
+	    		margin: 0;
+	    	}
+			#bg
+			{
+				width: 100%;
+				height: 100%;
+				min-height: 100%;
+				background-image: url('static/img/tartan/crooked tunnel.png');
+				z-index: 1;
+			}
+			a, #links
+            {
+                position: absolute;
+                top: 2px;
+                left: 2px;
+                color: grey;
+                font-size: 10px;
+            }
+		</style>
+        <script src="static/js/jquery-1.9.1.min.js"></script>
+        <script src="static/js/jquery-scroll.js"></script>
+        <script src="static/js/jquery-align.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$(document).click(function(){window.location.href="http://fakelove.us/"});
+				$('#bg').bgscroll({scrollSpeed:10, direction:'d', heading: 'r'});
+				$('#shawty').vAlign().hAlign();
+			});
+		</script>
+	</head>
+	<body>
+		<audio autoplay loop><source src='static/sound/cashin out.mp3'></source></audio>
+		<div id="shawty"><img width='650px' height='650px' style="border-style:solid;border-width:1px;" src="static/img/shawty.jpg"></div>
+		<div id="bg"></div>
+		<div id='links'><a href="/shawty">#</a></div>
+				         <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-47149606-1', 'fakelove.us');
+  ga('send', 'pageview');
+
+</script>
+	</body>
+</html>
