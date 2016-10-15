@@ -1,12 +1,3 @@
-# fakelove.us/.py
-# backend by alex
-# web sights by ryan and alex
-#
-# music and graphics taken from a multitude of sources we never bothered to
-# give adequate credit for because we were both barred out of our heads and
-# probably was not thinking about that mattering when we spewed these pages
-# out of ourselves. we will rectify this.
-
 import glob, os, random, re
 from flask import abort, Flask, render_template, send_from_directory
 app = Flask(__name__)
