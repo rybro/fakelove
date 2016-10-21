@@ -1,6 +1,6 @@
 # fakelove
 old art website backend.
-will update eventually
+will update eventually.
 missing videos/songs
 # todo
 remake
