@@ -53,4 +53,4 @@ def favicon():
     return send_from_directory(os.path.join(app.root_path, 'staticfiles'), 'fa.png', mimetype='image/png')
 
 if __name__ == "__main__":
-    app.run(host='104.131.34.103',port=80,debug=False)
+    app.run(host=' ',port=80,debug=False)
